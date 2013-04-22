@@ -20,7 +20,7 @@
     },
     "require": {
         "php": ">=5.3.0",
-        "rah/rah_terminal": "master-dev",
+        "rah/rah_terminal": "dev-master",
         "michelf/php-markdown": "1.3"
     }
 }

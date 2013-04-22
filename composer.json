@@ -19,7 +19,8 @@
         "files": ["markdown.php"]
     },
     "require": {
-        "php": ">=5.2.0",
-        "rah/rah_terminal" : "master-dev"
+        "php": ">=5.3.0",
+        "rah/rah_terminal": "master-dev",
+        "michelf/php-markdown": "1.3"
     }
 }

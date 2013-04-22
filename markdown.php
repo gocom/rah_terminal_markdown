@@ -8,7 +8,7 @@
  * @copyright (c) 2012 Jukka Svahn
  * @date      2012-
  * @license   GNU GPLv2
- * @link      https://github.com/gocom/rah_terminal__markdown
+ * @link      https://github.com/gocom/rah_terminal_markdown
  *
  * Requires PHP Markdown
  * http://michelf.com/projects/php-markdown/
@@ -18,7 +18,7 @@
  * http://www.gnu.org/licenses/gpl-2.0.html
  */
 
-class rah_terminal__markdown
+class rah_terminal_markdown
 {
 	/**
 	 * Constructor.
@@ -48,7 +48,7 @@ class rah_terminal__markdown
 
 	public function process($markup)
 	{
-		$markdown = defined('rah_terminal__markdown') ? rah_terminal__markdown : '';
+		$markdown = defined('rah_terminal_markdown') ? rah_terminal_markdown : '';
 
 		if ($markdown && !function_exists('Markdown') && file_exists($markdown) && is_file($markdown) && is_readable($markdown))
 		{
@@ -57,7 +57,7 @@ class rah_terminal__markdown
 
 		if (!function_exists('Markdown'))
 		{
-			trigger_error('Markdown is not available. Include markdown.php in textpattern/config.php or set a path to it with "rah_terminal__markdown" constant');
+			trigger_error('Markdown is not available. Include markdown.php in textpattern/config.php or set a path to it with "rah_terminal_markdown" constant');
 			return false;
 		}
 
@@ -65,4 +65,4 @@ class rah_terminal__markdown
 	}
 }
 
-new rah_terminal__markdown();
+new rah_terminal_markdown();

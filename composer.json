@@ -1,8 +1,8 @@
 {
-    "name": "rah/rah_terminal__markdown",
+    "name": "rah/rah_terminal_markdown",
     "description": "Web terminal plugin for Textpattern",
     "keywords": ["textpattern"],
-    "homepage": "https://github.com/gocom/rah_terminal__markdown",
+    "homepage": "https://github.com/gocom/rah_terminal_markdown",
     "license": "GPL-2.0",
     "authors": [
         {
@@ -12,8 +12,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/gocom/rah_terminal__markdown/issues",
-        "source": "https://github.com/gocom/rah_terminal__markdown"
+        "issues": "https://github.com/gocom/rah_terminal_markdown/issues",
+        "source": "https://github.com/gocom/rah_terminal_markdown"
     },
     "autoload": {
         "files": ["markdown.php"]

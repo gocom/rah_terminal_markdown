@@ -7,3 +7,9 @@ p. To configure PHP Markdown, download @markdown.php@ and upload it to your serv
 bc. define('rah_terminal__markdown', '/absolute/path/to/markdown.php');
 
 p. The constant @rah_terminal__markdown@ should contain an absolute path to markdown.php file.
+
+h2. Changelog
+
+h3. Version 0.1.0 - upcoming
+
+* Initial release.

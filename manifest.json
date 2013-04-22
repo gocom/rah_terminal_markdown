@@ -1,7 +1,7 @@
 {
 	"name"        : "rah_terminal__markdown",
 	"description" : "Markdown module for rah_terminal",
-	"version"     : "0.1",
+	"version"     : "0.1.0",
 	"type"        : 4,
 	"author"      : "Jukka Svahn",
 	"author_uri"  : "http://rahforum.biz",

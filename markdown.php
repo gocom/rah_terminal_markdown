@@ -48,20 +48,7 @@ class rah_terminal_markdown
 
 	public function process($markup)
 	{
-		$markdown = defined('rah_terminal_markdown') ? rah_terminal_markdown : '';
-
-		if ($markdown && !function_exists('Markdown') && file_exists($markdown) && is_file($markdown) && is_readable($markdown))
-		{
-			include_once $markdown;
-		}
-
-		if (!function_exists('Markdown'))
-		{
-			trigger_error('Markdown is not available. Include markdown.php in textpattern/config.php or set a path to it with "rah_terminal_markdown" constant');
-			return false;
-		}
-
-		return Markdown($markup);
+		return \Michelf\MarkdownExtra::defaultTransform($markup);
 	}
 }
 

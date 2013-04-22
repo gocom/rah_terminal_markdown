@@ -17,12 +17,6 @@
  * http://www.gnu.org/licenses/gpl-2.0.html
  */
 
-	new rah_terminal__markdown();
-
-/**
- * Markdown module.
- */
-
 class rah_terminal__markdown
 {
 	/**
@@ -69,3 +63,5 @@ class rah_terminal__markdown
 		return Markdown($markup);
 	}
 }
+
+new rah_terminal__markdown();

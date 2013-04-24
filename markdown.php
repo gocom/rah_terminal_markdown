@@ -3,7 +3,6 @@
 /**
  * Generates HTML markup from supplied Markdown markup.
  *
- * @package   rah_terminal
  * @author    Jukka Svahn
  * @date      2012-
  * @license   GNU GPLv2

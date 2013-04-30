@@ -1,9 +1,10 @@
 {
     "name": "rah/rah_terminal_markdown",
-    "description": "Web terminal plugin for Textpattern",
+    "description": "Markdown module for rah_terminal",
     "keywords": ["textpattern"],
     "homepage": "https://github.com/gocom/rah_terminal_markdown",
     "license": "GPL-2.0",
+    "type": "textpattern-plugin",
     "authors": [
         {
             "name": "Jukka Svahn",
@@ -19,7 +20,7 @@
         "files": []
     },
     "require": {
-        "php": ">=5.3.0",
+        "rah/textpattern-plugin-installer": "*@dev",
         "rah/rah_terminal": "0.1.*",
         "michelf/php-markdown": "1.3.*"
     }

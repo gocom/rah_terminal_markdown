@@ -20,7 +20,7 @@
         "files": []
     },
     "require": {
-        "rah/textpattern-plugin-installer": "*@dev",
+        "textpattern/installer": "*@dev",
         "rah/rah_terminal": "0.1.*",
         "michelf/php-markdown": "1.3.*"
     }

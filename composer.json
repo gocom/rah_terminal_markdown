@@ -1,7 +1,7 @@
 {
     "name": "rah/rah_terminal_markdown",
     "description": "Markdown module for rah_terminal",
-    "keywords": ["textpattern"],
+    "keywords": ["textpattern", "plugin"],
     "homepage": "https://github.com/gocom/rah_terminal_markdown",
     "license": "GPL-2.0",
     "type": "textpattern-plugin",
@@ -15,9 +15,6 @@
     "support": {
         "issues": "https://github.com/gocom/rah_terminal_markdown/issues",
         "source": "https://github.com/gocom/rah_terminal_markdown"
-    },
-    "autoload": {
-        "files": []
     },
     "require": {
         "textpattern/installer": "*",

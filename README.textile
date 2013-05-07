@@ -19,6 +19,10 @@ p. Minimum requirements:
 
 h2. Changelog
 
+h3. Version 0.1.1 - 2013/05/07
+
+* Uses "textpattern/installer":https://packagist.org/packages/textpattern/installer and "textpattern/lock":https://packagist.org/packages/textpattern/installer.
+
 h3. Version 0.1.0 - 2013/04/24
 
 * Initial release.

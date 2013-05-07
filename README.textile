@@ -2,6 +2,12 @@ h1. Markdown module for rah_terminal
 
 p. The module generates and prints out HTML markup from given Markdown syntax. Uses and requires "PHP Markdown":https://github.com/michelf/php-markdown library.
 
+h2. Installing
+
+p. Using "Composer":http://getcomposer.org:
+
+bc. $ composer.phar require rah/rah_terminal_markdown
+
 h2. Requirements
 
 p. Minimum requirements:
@@ -13,6 +19,6 @@ p. Minimum requirements:
 
 h2. Changelog
 
-h3. Version 0.1.0 - 2013/04/24 - "Download":http://rahforum.biz/d/rah_terminal_markdown_v0.1.0_zip.txt
+h3. Version 0.1.0 - 2013/04/24
 
 * Initial release.

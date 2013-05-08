@@ -19,6 +19,7 @@
     "require": {
         "textpattern/installer": "*",
         "rah/rah_terminal": "0.1.*",
+		"rah/rah_autoload": "*",
         "michelf/php-markdown": "1.3.*"
     }
 }

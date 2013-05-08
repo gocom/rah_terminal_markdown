@@ -19,6 +19,10 @@ p. Minimum requirements:
 
 h2. Changelog
 
+h3. Version 0.1.3 - 2013/05/08
+
+* Uses "rah/rah_autoload":https://packagist.org/packages/rah/rah_autoload to load dependencies.
+
 h3. Version 0.1.2 - 2013/05/07
 
 * Fixed the reported version number in the compiled installer.
